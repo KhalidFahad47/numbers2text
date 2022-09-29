@@ -15,7 +15,7 @@ function errorHandler(error) {
   console.log("An error occurred", error);
   alert("Server down, please try again after some time!!!");
 }
-
+//click handler
 function clickEventHandler() {
   let inputText = input.value; //taking input
   output.innerText = "Translating.....";
